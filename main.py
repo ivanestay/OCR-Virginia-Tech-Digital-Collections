@@ -15,7 +15,7 @@ pytesseract.pytesseract.tesseract_cmd = r'C:\Users\ivanestay\AppData\Local\Progr
 
 # We retrieve these images from a folder using glob and then use an array to store them.
 # We start with the "regular" files (the ones without any handwriting).
-path = glob.glob("C:/Users/ivanestay/Downloads/BARTER_COLLECTION/regular/*.jpg")
+path = glob.glob("C:/Users/ivanestay/PycharmProjects/OCR-Virginia-Tech-Digital-Collections/BARTER_COLLECTION/regular/*.jpg")
 #cv_img = []
 #cv2_img = []
 #cv3_img = []
@@ -41,13 +41,13 @@ for img in path:
         "image": file_name,
         "output": text
     }
-    with open("C:/Users/ivanestay/Downloads/BARTER_COLLECTION/output/"+file_name_no_extension+".json", "w") as f:
+    with open("C:/Users/ivanestay/PycharmProjects/OCR-Virginia-Tech-Digital-Collections/BARTER_COLLECTION/output/"+file_name_no_extension+".json", "w") as f:
         json.dump(data, f, indent=4)
     #cv2_img.append(th2)
     #cv3_img.append(th3)
 
 # We now repeat with the files with handwriting
-path2 = glob.glob("C:/Users/ivanestay/Downloads/BARTER_COLLECTION/handwriting/*.jpg")
+path2 = glob.glob("C:/Users/ivanestay/PycharmProjects/OCR-Virginia-Tech-Digital-Collections/BARTER_COLLECTION/handwriting/*.jpg")
 for img in path2:
     n = cv.imread(img,0)
     z = cv.medianBlur(n,3)
@@ -60,7 +60,7 @@ for img in path2:
         "image": file_name,
         "output": text
     }
-    with open("C:/Users/ivanestay/Downloads/BARTER_COLLECTION/output/" + file_name_no_extension + ".json", "w") as f:
+    with open("C:/Users/ivanestay/PycharmProjects/OCR-Virginia-Tech-Digital-Collections/BARTER_COLLECTION/output/" + file_name_no_extension + ".json", "w") as f:
         json.dump(data, f, indent=4)
 
 #img = cv.imread('C:/Users/ivanestay/Downloads/BARTER_COLLECTION/BTR_BTR_000001_0001.jpg',0)
