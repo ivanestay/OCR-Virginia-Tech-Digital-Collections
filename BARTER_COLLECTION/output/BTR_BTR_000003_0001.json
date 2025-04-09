@@ -1,4 +1,8 @@
 {
-    "image": "BTR_BTR_000003_0001.json",
-    "output": "BARTER\nTHEATRE\n\nABINGDON. A VIRGINIA\n\nAPRIL THRU\nSEPTEMBER\n\nMATINEES : EVENINGS:\nWED and SAT TUES thru SUN\n\n"
+    "image": "BTR_BTR_000003_0001.jpg",
+    "output": "t VIRGINIA\n\nABINGDON\nAPRIL THRU a\nSEPTEMBER |\n\nMATINEES : EVENINGS:\nWED and SAT TUES thru SUN\n\n",
+    "names_detected": [
+        "Sat Tues Thru Sun"
+    ],
+    "duplicate": "false"
 }

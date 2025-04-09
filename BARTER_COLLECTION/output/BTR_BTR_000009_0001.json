@@ -1,4 +1,8 @@
 {
-    "image": "BTR_BTR_000009_0001.json",
-    "output": "Robert Porterfield Presents \u2014\n\nat\nABINGDON,\nVIRGINIA\n\nTHE 13 CLOCKS |\n\nAUGUST 18, 1954\n| AUGUST 19 - AUGUST 21, 1954 |\n\n| , Curtain\n \u20ac at 815\n"
+    "image": "BTR_BTR_000009_0001.jpg",
+    "output": "Robert Porterfield Presents \u2014\n\nat\nABINGDON,\nVIRGINIA\n\nTHE 13 CLOCKS |\n\nAUGUST 18, 1954\n| AUGUST 19 - AUGUST 21, 1954 |\n\n| , Curtain\n \u20ac at 815\n",
+    "names_detected": [
+        "Robert Porterfield Presents"
+    ],
+    "duplicate": "false"
 }

@@ -1,4 +1,6 @@
 {
-    "image": "BTR_BTR_000010_0001.json",
-    "output": "THE BARTER THEATRE\npresents\n\nTHE DIARY OF\n\nANNE FRANK\n\nMay 6 - May 31\n\nBarter Theatre, Abingdon, Va.\nFor reservations call (703) 628-3991\n"
+    "image": "BTR_BTR_000010_0001.jpg",
+    "output": "THE BARTER THEATRE\npresents\n\nTHE DIARY OF\n\nANNE FRANK\n\nMay 6 - May 31\n\nBarter Theatre, Abingdon, Va.\nFor reservations call (703) 628-3991\n",
+    "names_detected": [],
+    "duplicate": "false"
 }

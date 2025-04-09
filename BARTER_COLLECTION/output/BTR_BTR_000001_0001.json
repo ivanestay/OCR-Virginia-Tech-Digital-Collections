@@ -1,4 +1,12 @@
 {
-    "image": "BTR_BTR_000001_0001.json",
-    "output": "Robert Porterfield presents\n\nWORLD\nPREMIERE os\n\nTHE GOLDEN |\nLANTERN\n\nM. K. STEWART and REBECCA FRANKLIN\nMon., Tues., Wed., Thur. Fri, Sat.\nAug. 26 - 27 - 28 - 29 - 30 - 31\n\nCall Barter Theatre, Abingdon, Va., MArket 8.3991 For Reservations\n\nAIR CONDITIONED\nCurtain 8:30 Mat. Wed. & Sat. 2:30\nPLEASE POST\n\na. ie \u2014\n"
+    "image": "BTR_BTR_000001_0001.jpg",
+    "output": "Robert Porterfield presents\n\nWORLD\nPREMIERE os\n\nTHE GOLDEN |\nLANTERN\n\nM. K. STEWART and REBECCA FRANKLIN\nMon., Tues., Wed., Thur. Fri, Sat.\nAug. 26 - 27 - 28 - 29 - 30 - 31\n\nCall Barter Theatre, Abingdon, Va., MArket 8.3991 For Reservations\n\nAIR CONDITIONED\nCurtain 8:30 Mat. Wed. & Sat. 2:30\nPLEASE POST\n\na. ie \u2014\n",
+    "names_detected": [
+        "Robert Porterfield Presents",
+        "M. K. Stewart",
+        "Rebecca Franklin",
+        "Tues",
+        "Thur"
+    ],
+    "duplicate": "false"
 }
